@@ -1,0 +1,142 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Nav Bar */
+
+.navbar {
+    height: 69px !important;
+    align-items: center;
+    border-bottom: 1px solid seashell !important;
+}
+
+#teaLogo {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.nav-link {
+    text-decoration: underline;
+    display: inline-flex;
+    padding: 0 20px;
+    color: seashell !important;
+}
+
+/* Hero */
+
+#heroImage {
+    background-image: url("images/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#heroStatement {
+    background-color: black;
+    width: 100%;
+    padding-top: 5px;
+}
+
+/* Sub Hero */
+
+.subHero {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.subHero h2 {
+    padding: 10px;
+}
+
+.subHero h4 {
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.subImage {
+    height: 200px;
+    width: 300px;
+}
+
+#subFlex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-row {
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.flex-row div {
+    padding: 15px;
+}
+
+#subFlex div h4 {
+    padding: 10px;
+}
+
+/* Locations */
+
+#locationImage {
+    background-image: url('images/img-locations-background.jpg');
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.locationBox {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    height: 190px;
+    margin: 15px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.locationRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contact */
+
+.contactBox {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactBox h2 {
+    flex-basis: 40%;
+}
+
+/* Footer */
+
+.footerCopy {
+    text-align: left !important;
+    padding: 20px;
+}
