@@ -30,7 +30,7 @@ body {
 /* Hero */
 
 #heroImage {
-    background-image: url("images/1img-mission-background.jpg");
+    background-image: url("./images/1img-mission-background.jpg");
     height: 700px;
     width: 1200px;
     margin: 0 auto;
@@ -91,7 +91,7 @@ body {
 /* Locations */
 
 #locationImage {
-    background-image: url('images/1img-locations-background.jpg');
+    background-image: url("./images/1img-locations-background.jpg");
     width: 1200px;
     height: 500px;
     margin: 0 auto;
